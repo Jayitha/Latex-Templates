@@ -67,10 +67,10 @@
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
 \geometry{paperheight=845pt,paperwidth=597pt,                   %fix paperwidth and height.
-          marginparsep=.02\paperwidth,marginparwidth=.23\paperwidth,
-          inner=.05\paperwidth,voffset=-1in,headheight=.02\paperheight,
+          marginparsep=.03\paperwidth,marginparwidth=.19\paperwidth,
+          inner=.1\paperwidth,voffset=-1in,headheight=.02\paperheight,
           headsep=.03\paperheight,footskip=20pt,
-          textheight=.84\paperheight,textwidth=.64\paperwidth}
+          textheight=.84\paperheight,textwidth=.6\paperwidth}
 
 \pagestyle{fancy}%
 \newlength{\myoddoffset}%
@@ -162,9 +162,9 @@
 \tcolorboxenvironment{theorem}{
   boxrule=0pt,
   boxsep=2pt,
-  colback={White!90!Dandelion},
+  colback={White!90!Red},
   enhanced jigsaw, 
-  borderline west={2pt}{0pt}{Dandelion},
+  borderline west={2pt}{0pt}{Red},
   sharp corners,
   before skip=10pt,
   after skip=10pt,
@@ -174,13 +174,14 @@
 \tcolorboxenvironment{lemma}{
   boxrule=0pt,
   boxsep=2pt,
-  blanker,
-  borderline west={2pt}{0pt}{Red},
+  colback={White!90!Dandelion},
+  enhanced jigsaw,
+  borderline west={2pt}{0pt}{Dandelion},
   before skip=10pt,
   after skip=10pt,
   sharp corners,
-  left=12pt,
-  right=12pt,
+  %left=12pt,
+  %right=12pt,
   breakable,
 }
 
@@ -199,25 +200,24 @@
 \tcolorboxenvironment{remark}{
   boxrule=0pt,
   boxsep=2pt,
-  blanker,
+  colback={White!90!Green},
+  enhanced jigsaw, 
   borderline west={2pt}{0pt}{Green},
+  sharp corners,
   before skip=10pt,
   after skip=10pt,
-  left=12pt,
-  right=12pt,
   breakable,
 }
 
 \tcolorboxenvironment{example}{
   boxrule=0pt,
   boxsep=2pt,
-  blanker,
-  borderline west={2pt}{0pt}{Black},
+  colback={White!90!Gray},
+  enhanced jigsaw, 
+  borderline west={2pt}{0pt}{Gray},
   sharp corners,
   before skip=10pt,
   after skip=10pt,
-  left=12pt,
-  right=12pt,
   breakable,
 }
 
