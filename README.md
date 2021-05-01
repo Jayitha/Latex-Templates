@@ -1,5 +1,7 @@
 # Latex-Templates
 
+Just a collection of LaTeX templates I like to use, tweaked very slightly to meet my requirements.
+
 1. [NoTeX](https://github.com/Adhumunt/NotesTeX)
 
 |||
@@ -19,7 +21,7 @@
 |![](./TufteBook/TufBook1.jpg)|![](./TufteBook/TufBook2.jpg)|
 
 
-4. Cambridge Inspired
+4. [Cambridge Inspired](https://www.overleaf.com/latex/templates/template-for-submission-to-political-analysis/csxqmspqzntv)
 
 | | |
 |---|---|
