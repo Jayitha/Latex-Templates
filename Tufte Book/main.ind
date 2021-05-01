@@ -1,0 +1,219 @@
+\begin{theindex}
+
+  \item \texttt  {10pt} class option, 33
+  \item \texttt  {11pt} class option, 33
+  \item \texttt  {12pt} class option, 33
+
+  \indexspace
+
+  \item \texttt  {a4paper} class option, 27
+  \item \texttt  {a5paper} class option, 33
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {allcaps}, 26
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {author}, 28
+  \item \texttt  {auto} class option, 31
+
+  \indexspace
+
+  \item \texttt  {b5paper} class option, 33
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {bibliography}, 
+		22
+  \item \texttt  {bidi} class option, 27
+  \item \texttt  {bidi} package, 27
+  \item \texttt  {booktabs} package, 24
+
+  \indexspace
+
+  \item \texttt  {caption} class option, 30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {caption}, 
+		23, 24
+  \item \texttt  {citation} class option, 30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {cite}, 22
+  \item class options, 27--28
+    \subitem \texttt  {10pt}, 33
+    \subitem \texttt  {11pt}, 33
+    \subitem \texttt  {12pt}, 33
+    \subitem \texttt  {a4paper}, 27
+    \subitem \texttt  {a5paper}, 33
+    \subitem \texttt  {auto}, 31
+    \subitem \texttt  {b5paper}, 33
+    \subitem \texttt  {bidi}, 27
+    \subitem \texttt  {caption}, 30
+    \subitem \texttt  {citation}, 30
+    \subitem \texttt  {debug}, 27, 35
+    \subitem \texttt  {executivepaper}, 33
+    \subitem \texttt  {justified}, 27, 30, 31
+    \subitem \texttt  {landscape}, 33
+    \subitem \texttt  {legalpaper}, 33
+    \subitem \texttt  {marginals}, 30
+    \subitem \texttt  {marginnote}, 30
+    \subitem \texttt  {nofonts}, 27
+    \subitem \texttt  {nohyper}, 28
+    \subitem \texttt  {nols}, 27
+    \subitem \texttt  {notitlepage}, 27
+    \subitem \texttt  {notoc}, 28
+    \subitem \texttt  {onecolumn}, 33
+    \subitem \texttt  {oneside}, 27
+    \subitem \texttt  {raggedleft}, 31
+    \subitem \texttt  {raggedright}, 31
+    \subitem \texttt  {sfsidenotes}, 27
+    \subitem \texttt  {sidenote}, 30
+    \subitem \texttt  {symmetric}, 27, 31, 36
+    \subitem \texttt  {titlepage}, 27
+    \subitem \texttt  {twoside}, 27, 36
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {clearpage}, 25
+
+  \indexspace
+
+  \item \texttt  {debug} class option, 27, 35
+  \item debug messages, 36
+
+  \indexspace
+
+  \item environments
+    \subitem \texttt  {figure}, 23
+    \subitem \texttt  {figure*}, 23
+    \subitem \texttt  {fullwidth}, 26
+    \subitem \texttt  {marginfigure}, 23
+    \subitem \texttt  {margintable}, 23
+    \subitem \texttt  {table*}, 23
+    \subitem \texttt  {tabular}, 23
+  \item error messages, 36
+  \item \texttt  {executivepaper} class option, 33
+
+  \indexspace
+
+  \item \texttt  {figure} environment, 23
+  \item \texttt  {figure*} environment, 23
+  \item file hooks, 29
+    \subitem book, 29
+    \subitem common, 29
+    \subitem handout, 29
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {FloatBarrier}, 
+		25
+  \item \texttt  {fontenc} package, 27
+  \item fonts, \see{typefaces}{19}
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {footnote}, 21
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {forcerectofloat}, 
+		25, 26
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {forceversofloat}, 
+		25, 26
+  \item \texttt  {fullwidth} environment, 26
+
+  \indexspace
+
+  \item \texttt  {geometry} package, 30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {geometrysetup}, 
+		30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {geometrysetup} (\texttt  {geometry} package), 
+		30
+
+  \indexspace
+
+  \item headings, 19, 21
+    \subitem numbered, 29
+  \item \texttt  {hyperref} package, 28
+
+  \indexspace
+
+  \item \texttt  {justified} class option, 27, 30, 31
+
+  \indexspace
+
+  \item \texttt  {landscape} class option, 33
+  \item \texttt  {legalpaper} class option, 33
+  \item \texttt  {letterspace} package, 27
+  \item license, 2
+
+  \indexspace
+
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {maketitle}, 27
+  \item \texttt  {marginals} class option, 30
+  \item \texttt  {marginfigure} environment, 23
+  \item \texttt  {marginnote} class option, 30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {marginnote}, 22
+  \item \texttt  {margintable} environment, 23
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {morefloats}, 
+		24, 25, 36
+
+  \indexspace
+
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {newthought}, 21
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {nobibliography}, 
+		22
+  \item \texttt  {nofonts} class option, 27
+  \item \texttt  {nohyper} class option, 28
+  \item \texttt  {nols} class option, 27
+  \item \texttt  {notitlepage} class option, 27
+  \item \texttt  {notoc} class option, 28
+
+  \indexspace
+
+  \item \texttt  {onecolumn} class option, 33
+  \item \texttt  {oneside} class option, 27
+
+  \indexspace
+
+  \item packages
+    \subitem \texttt  {bidi}, 27
+    \subitem \texttt  {booktabs}, 24
+    \subitem \texttt  {fontenc}, 27
+    \subitem \texttt  {geometry}, 30
+    \subitem \texttt  {hyperref}, 28
+    \subitem \texttt  {letterspace}, 27
+    \subitem \texttt  {soul}, 27
+
+  \indexspace
+
+  \item \texttt  {raggedleft} class option, 31
+  \item \texttt  {raggedright} class option, 31
+
+  \indexspace
+
+  \item \texttt  {secnumdepth} counter, 29, 30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {setcaptionfont}, 
+		31
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {setcitationfont}, 
+		31
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {setcounter}, 30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {setfloatalignment}, 
+		25
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {setmarginnotefont}, 
+		31
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {setsidenotefont}, 
+		31
+  \item \texttt  {sfsidenotes} class option, 27
+  \item \texttt  {sidenote} class option, 30
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {sidenote}, 22
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {smallcaps}, 26
+  \item \texttt  {soul} package, 27
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {subparagraph}, 
+		33, 36
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {subsubsection}, 
+		33, 36
+  \item \texttt  {symmetric} class option, 27, 31, 36
+
+  \indexspace
+
+  \item table of contents, 18
+  \item \texttt  {table*} environment, 23
+  \item \texttt  {tabular} environment, 23
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {textsc}, 26
+  \item \hangleft {\texttt  {\symbol  {'134}}}\texttt  {title}, 28
+  \item \texttt  {titlepage} class option, 27
+  \item \texttt  {tufte-book-local.tex}, 29
+  \item \texttt  {tufte-common-handout.tex}, 29
+  \item \texttt  {tufte-common-local.tex}, 29
+  \item \texttt  {tufte-handout-local.tex}, 29
+  \item \texttt  {twoside} class option, 27, 36
+  \item typefaces, 19, 26
+    \subitem sizes, 19
+
+  \indexspace
+
+  \item warning messages, 36
+
+  \indexspace
+
+  \item \XeLaTeX , 27
+
+\end{theindex}
