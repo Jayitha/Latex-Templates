@@ -10,7 +10,7 @@
 
 | | |
 |---|---|
-|![](./TufteHandout/TufHand1.jpg)|![](./TufteHAndout/TufHand2.jpg)|
+|![](./TufteHandout/TufHand1.jpg)|![](./TufteHandout/TufHand2.jpg)|
 
 3. [Tufte Book](https://www.overleaf.com/latex/templates/handout-design-inspired-by-edward-tufte/dtsbhhkvghzz)
 
