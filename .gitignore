@@ -2,8 +2,6 @@
 *.org_archive
 *-blx.bib
 *.bbl
-*.tex
-*.md
 *.aux
 *.blg
 *.lof
