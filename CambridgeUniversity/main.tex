@@ -1,16 +1,15 @@
 \documentclass{cup-pan}
 \usepackage[utf8]{inputenc}
 \usepackage{blindtext}
-\usepackage{geometry}
-\usepackage{marginnote}
-%\reversemarginpar
-\newcommand{\m}[1]{\marginnote{\flushleft #1}}
 
-\title{Independent Study: Mid Report}
+
+
+
+\title{Title}
 
 \author[1]{Jayitha Cherapanamjeri}
 
-\affil[1]{International Institute of Information Technology. Email: \url{jayitha.c@research.iiit.ac.in}}
+\affil[1]{International Institute of Information Technology. \newline \url{jayitha.c@research.iiit.ac.in}}
 
 \addbibresource{refs.bib}
 
@@ -37,7 +36,7 @@ Only two levels of sectional headings, \verb|\section| and \verb|\subsection|, s
 \section{Example of a first section}
 \label{sec:overview}
 
-Here's an example parenthetical\m{This is a margin note, $x^2$, well this looks good so far} citation \citep{lees2010theoretical} and a text citation: \citet{urmson2008autonomous}. There isn't a good, up-to-date BibTeX style for the Chicago style, so we're using \texttt{biblatex-chicago} instead. This means you'll need to run \texttt{biber} instead of \texttt{bibtex} if you're compiling this template on your local \LaTeX{} installation: on Overleaf, \texttt{biber} is run automatically. You can add pre-notes with citations \citep[see also][]{urmson2008autonomous} too, as well as multiple citations \citep{geiger2012we,leesother} in a single \verb|\citep{...}| or \verb|\citet{...}|. 
+Here's \td{something} an \q{something} example \note{something} parenthetical\sidenote{This is a margin note, $x^2$, well this looks a good so far} citation \citep{lees2010theoretical} and a text citation: \citet{urmson2008autonomous}. There isn't a good, up-to-date BibTeX style for the \hl{Chicago} style, so \del{we're} \ins{we are} using \texttt{biblatex-chicago} instead. This means you'll need to run \texttt{biber} instead of \texttt{bibtex} if you're compiling this template on your local \LaTeX{} installation: on Overleaf, \texttt{biber} is run automatically. You can add pre-notes with citations \citep[see also][]{urmson2008autonomous} too, as well as multiple citations \citep{geiger2012we,leesother} in a single \verb|\citep{...}| or \verb|\citet{...}|. 
 
 This is an equation, numbered
 \begin{equation}
@@ -49,6 +48,12 @@ and one that is not numbered
 \int_0^{+\infty}e^{-x^2}dx=\frac{\sqrt{\pi}}{2}
 \end{equation*}
 and one inlined: $e^{i\pi}=-1$. As usual you can cross-reference equations with Equation \ref{eq:poisson} or \eqref{eq:poisson}.
+\begin{marginfigure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{example-image}
+    \caption{This is a figure caption. Let's see what happens when it's long and contains citations \citep{geiger2012we} and cross-references: \ref{sec:overview}. Yep, works. Captions should not contain manual line breaks!}
+    \label{fig:example}
+\end{marginfigure}
 
 Figure \ref{fig:example} shows a normal figure, while figure \ref{fig:twosubs} show one made up of two sub-figures. Figure \ref{fig:landscape} is an example of a landscaped figure. You can use the \verb|\subcaption{...}| command from the \texttt{subcaption} package to add captions for subfigures and subtables, but do not use the \texttt{subfigure} package: it is incompatible with this template.
 
@@ -60,9 +65,10 @@ Figure \ref{fig:example} shows a normal figure, while figure \ref{fig:twosubs} s
 \end{figure}
 
 \begin{table}[bt]
-\caption{Automobile Land Speed Records (GR 5-10). Source: \url{https://www.sedl.org/afterschool/toolkits/science/pdf/ast_sci_data_tables_sample.pdf}}
+\sidecaption{Automobile Land Speed Records (GR 5-10). Source: \url{https://www.sedl.org/afterschool/toolkits/science/pdf/ast_sci_data_tables_sample.pdf}}
 \label{tab:example}
 \centering
+\resizebox{\textwidth}{!}{
 \begin{tabular}{l l l l r}
 \headrow \thead{Speed (mph)} & \thead{Driver} & \thead{Car} & \thead{Engine} & \thead{Date} \\
 407.447     & Craig Breedlove & Spirit of America          & GE J47    & 8/5/63   \\
@@ -77,7 +83,7 @@ Figure \ref{fig:example} shows a normal figure, while figure \ref{fig:twosubs} s
 622.407     & Gary Gabelich   & Blue Flame                 & Rocket    & 10/23/70 \\
 633.468     & Richard Noble   & Thrust 2                   & RR RG 146 & 10/4/83  \\
 763.035     & Andy Green      & Thrust SSC                 & RR Spey   & 10/15/97\\
-\end{tabular}
+\end{tabular}}
 
 \end{table}
 
@@ -105,6 +111,18 @@ Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit la
 \label{fig:twosubs}
 \end{figure}
 
+\begin{listing}[!ht]
+    \begin{minted}{c}
+    #include <stdio.h>
+    int main() {
+       printf("Hello, World!"); /*printf() outputs the quoted string*/
+       return 0;
+    }
+    \end{minted}
+    \caption{Hello World in C}
+    \label{listing:2}
+\end{listing}
+
 \begin{sidewaysfigure}
 \centering
 \includegraphics[width=19cm]{example-image}
@@ -124,4 +142,5 @@ A supplementary material section will always appear before the Reference list. I
 \end{quote}
 
 \printbibliography
+
 \end{document}

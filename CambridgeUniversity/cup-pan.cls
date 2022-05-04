@@ -23,8 +23,13 @@
 \RequirePackage[absolute]{textpos}
 \RequirePackage[right]{lineno}
 \RequirePackage{amsmath}
+\RequirePackage{marginnote}
+\RequirePackage{sidenotes}
+\RequirePackage{minted}
+\RequirePackage{todonotes}
+\RequirePackage{soul}
 
-\def\@journalname{Independent Study}
+\def\@journalname{}
 \def\@keywordsname{Keywords}
 \def\@authornotename{Author's notes}
 \def\@corrauthorname{Corresponding author}
@@ -36,6 +41,10 @@
 \definecolor{PANDarkBlue}{RGB}{19,126,194}
 \definecolor{PANMaroon}{RGB}{105,27,46}
 \definecolor{PANDarkGray}{RGB}{153,153,153}
+\definecolor{lightblue}{RGB}{140,204,238}
+\definecolor{lightorange}{RGB}{254,216,177}
+\definecolor{lightpastelgreen}{RGB}{190,229,176}
+\definecolor{brightyellow}{RGB}{255,255,0}
 
 \RequirePackage{microtype}
 \newif\ifxetexorluatex
@@ -75,13 +84,19 @@
 
 \RequirePackage{geometry}
 \geometry{paperwidth=8.25in,paperheight=11in,
-  inner=2.3cm,top=1.75cm,bottom=2.4cm,outer=5.5cm, marginparwidth=4cm, marginparsep=0.5cm, 
+  inner=2.3cm,top=1.75cm,bottom=2.4cm,outer=7cm, marginparwidth=5.7cm, marginparsep=0.5cm, 
   footskip=1.5\baselineskip,footnotesep=\baselineskip,headheight=21\p@,headsep=\baselineskip}
   
 \newcommand{\runningauthor}[1]{\def\@runningauthor{#1}}
 \newcommand{\authornote}[1]{\def\@authornote{#1}}
 \newcommand{\corrauthor}[1]{\def\@corrauthor{#1}}
 
+\newcommand{\td}[1]{\todo[backgroundcolor=lightblue, linecolor=black, fancyline, inlinepar]{\texttt{TODO:} #1}}
+\newcommand{\q}[1]{\todo[backgroundcolor=lightorange, fancyline]{\texttt{Q:} #1}}
+\newcommand{\note}[1]{\todo[backgroundcolor=lightpastelgreen, fancyline]{\texttt{COMMENT:} #1}}
+\newcommand{\del}[1]{{\sethlcolor{pink} \hl{#1}}}
+\newcommand{\ins}[1]{{\sethlcolor{green} \hl{#1}}}
+\usemintedstyle{tango}
 
 \renewcommand{\Authfont}{\Large\bfseries}
 \renewcommand{\Affilfont}{\small\itshape\mdseries}
@@ -169,7 +184,7 @@
 \appto{\footrule}{\endgroup}
 %\fancyhead[L]{\hspace*{-4cm}\Huge\color{PANMaroon}PA}
 \fancyfoot[R]{\small\thepage}
-\fancyfoot[L]{\small\emph{\@runningauthor}\enskip|\enskip\@journalname}
+\fancyfoot[L]{\small\emph{\@runningauthor}\enskip}
 \pagestyle{fancy}
 \fancypagestyle{plain}{%
   \fancyhf{}
@@ -196,6 +211,10 @@
   \xpretocmd{\printbibliography}{\insert@supplmat}{}{}
   \AtBeginEnvironment{thebibliography}{\insert@supplmat}
 \fi
+
+\newcommand{\insert@todolist}{\todototoc
+\listoftodos}
+\AtEndDocument{\insert@todolist}
 \renewcommand{\bibfont}{\small}
 
 \PassOptionsToPackage{hyphens}{url}
